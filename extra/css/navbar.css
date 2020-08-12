@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #EAFCFF;
+  font-weight: 800;
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(39, 76, 119)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nav-item {
+  padding-right: 20px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(39, 76, 119,.5);
+  text-align: right;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+  color: rgba(39, 76, 119,.9);
+}

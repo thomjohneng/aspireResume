@@ -1,0 +1,182 @@
+#teamHeader {
+  background-color: #EAFCFF;
+  display: block;
+  position: relative;
+  text-align: center;
+  height: 225px;
+  -webkit-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
+#expertise {
+  margin: auto;
+  width: 65%;
+  font-family: 'Open-sans', sans-serif;
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 40%;
+  color: #3F3F3F;
+  z-index: 10;
+  animation-delay: 0.6s;
+}
+
+#expertiseTitle {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#expertiseBody {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+#teamProfiles {
+  background-color: #EAFCFF;
+  display: block;
+  position: relative;
+  height: auto;
+  -webkit-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
+#teamBox {
+  width: 90%;
+  height: auto;
+  margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  animation-delay: 1.2s;
+  position: relative;
+}
+#teamWrapper {
+  margin: auto;
+  width: 100%;
+}
+
+#teamTitle {
+  font-family: 'Open-sans', sans-serif;
+  color: #3F3F3F;
+  font-size: 20px;
+  font-weight: 100;
+  z-index: 10;
+}
+
+#reviewer {
+  width: 300px;
+  height: 300px;
+  margin: 15px;
+  border: 2px solid #274C77;
+  border-radius: 10px;
+  background-color: #E7ECEF;
+  color: rgba(51, 55, 58, 0.5);
+  position: relative;
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  z-index: 10;
+  box-shadow: 5px 5px 5px #888888;
+}
+
+#profileImage img {
+  width: 125px;
+  border-radius: 50%;
+  margin-top: 5px;
+  border: 2px solid #6096BA;
+}
+
+#reviewerInfo {
+  font-family: 'Open-sans', sans-serif;
+}
+
+#reviewerInfo p {
+  text-align: left;
+  margin: 0.2rem;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+#joinTeamForm {
+  background-color: #EAFCFF;
+  display: block;
+  position: relative;
+  text-align: center;
+  overflow-y: hidden;
+  -webkit-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
+#joinTitle {
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 10vh;
+  animation-delay: 0.8s;
+}
+
+#joinBody {
+  font-size: 16px;
+  font-weight: 100;
+  margin-top: 1vh;
+  animation-delay: 0.8s;
+}
+
+#joinFormBody {
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 5vh;
+  animation-delay: 1s;
+}
+
+#creditTeam {
+  position: relative;
+  background-color: #EAFCFF;
+  bottom: 0px;
+  padding: 10px;
+  color: #3F3F3F;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+@media (max-width: 1012px) {
+  #teamHeader {
+    height: 225px;
+  }
+  #expertise {
+    top: 35%;
+  }
+}
+@media (max-width: 763px) {
+  #teamHeader {
+    height: 225px;
+  }
+  #expertise {
+    top: 35%;
+  }
+  #expertiseBody {
+    font-size: 12px;
+  }
+}
+@media (max-width: 520px) {
+  #teamHeader {
+    height: 300px;
+  }
+  #expertise {
+    top: 30%;
+  }
+  #expertiseBody {
+    font-size: 12px;
+  }
+}

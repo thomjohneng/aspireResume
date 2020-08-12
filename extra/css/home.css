@@ -1,0 +1,228 @@
+html {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+header {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+#icon {
+  width: 50px;
+}
+
+#header {
+  background-color: #EAFCFF;
+  display: block;
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  -webkit-transition: background-color 0.3s linear;
+    -moz-transition: background-color 0.3s linear;
+    -o-transition: background-color 0.3s linear;
+    -ms-transition: background-color 0.3s linear;
+    transition: background-color 0.3s linear;
+}
+
+#title {
+	text-align: center;
+	position: absolute;
+	top: 18%;
+	font-size: 60px;
+	letter-spacing: 6px;
+	color: #3F3F3F;
+	padding: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-weight: 800;
+	font-family: 'Raleway', sans-serif;
+  text-shadow: 1px 1px #6096BA;
+	z-index: 10;
+	animation-delay: 0.3s;
+}
+
+#description {
+	font-family: 'Raleway', sans-serif;
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	font-size: 20px;
+	color: #3F3F3F;
+	font-weight: 300;
+	letter-spacing: 2pt;
+	text-shadow: 1px 1px #6096BA;
+	z-index: 10;
+	animation-delay: 0.9s;
+}
+
+#mission {
+  margin: auto;
+  width: 60%;
+  font-family: 'Open-sans', sans-serif;
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 50%;
+  color: #3F3F3F;
+  z-index: 10;
+  animation-delay: 1.2s;
+}
+
+#missionTitle {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#missionBody {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+#credit {
+  position: absolute;
+  bottom: 0px;
+  padding: 10px;
+  left: 20px;
+  color: #3F3F3F;
+  font-family: 'Raleway', sans-serif;
+  font-size: 10px;
+  font-weight: 100;
+}
+
+/* BEGIN PASSIONS BOXES */
+#passionsBox, #valuesBox {
+	width: 80%;
+	height: auto;
+	justify-content: center;
+	text-align: center;
+}
+#passionWrapper, #valuesWrapper {
+	margin: auto;
+	width: 100%;
+}
+#design, #eating, #nature, #dogs, #diversity, #education, #sustainability, #health {
+	width: 400px;
+	height: 300px;
+	margin: 15px;
+	border: 5px solid #ffaa1f;
+	border-radius: 10px;
+	background-color: #e8e8e8;
+	color: rgba(51, 55, 58, 0.5);
+	position: relative;
+	display: inline-block;
+	flex-wrap: wrap;
+	justify-content: center;
+	overflow: hidden;
+	z-index: 10;
+}
+
+#design div, #eating div, #nature div, #dogsWrapper, #diversity div, #education div, #sustainability div, #health div {
+	position: absolute;
+	background-color: #33383a;
+	color: white;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	text-align: left justify;
+	-webkit-transition: opacity 0.4s ease-in-out;
+	-moz-transition: opacity 0.4s ease-in-out;
+	-o-transition: opacity 0.4s ease-in-out;
+	transition: opacity 0.4s ease-in-out;
+}
+
+#design div:hover, #eating div:hover, #nature div:hover, #dogsWrapper:hover, #diversity div:hover, #education div:hover, #sustainability div:hover, #health div:hover {
+	opacity: 1;
+	-webkit-transition: opacity 0.4s ease-in-out;
+	-moz-transition: opacity 0.4s ease-in-out;
+	-o-transition: opacity 0.4s ease-in-out;
+	transition: opacity 0.4s ease-in-out;
+}
+
+#design h4, #design div h4, #eating h4, #eating div h4, #nature h4, #nature div h4, #dogs h4, #dogsWrapper h4, #diversity h4, #diversity div h4, #education h4, #education div h4, #sustainability h4, #sustainability div h4, #health h4, #health div h4 {
+	margin: 10px;
+	text-align: left;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 10pt;
+	letter-spacing: 1pt;
+	font-stretch: ultra-expanded;
+}
+
+#design p, #eating p, #nature p, #diversity p, #education p, #sustainability p, #health p {
+	font-family: 'Roboto Slab', serif;
+	text-align: left;
+	font-size: 13px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+#dogsText {
+	font-family: 'Roboto Slab', serif;
+	font-size: 13px;
+}
+#design p a, #eating p a, #nature p a, #diversity p a, #education p a, #sustainability p a, #health p a, #dogsText a {
+	font-weight: 5pt;
+	color: #0cb4fa;
+}
+
+@media (max-width: 572px) {
+  #title {
+    font-size: 40px;
+  }
+  #description {
+    font-size: 20px;
+  }
+}
+@media (max-width: 427px) {
+  #title {
+    font-size: 35px;
+    line-height: 1.2;
+  }
+  #description {
+    font-size: 16px;
+  }
+  #missionBody {
+    font-size: 14px;
+  }
+}
+
+#confirmTitle {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  width: 80vw;
+  font-size: 60px;
+  letter-spacing: 6px;
+  color: #3F3F3F;
+  padding: 10px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-weight: 800;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 1px 1px #6096BA;
+  z-index: 10;
+  animation-delay: 0.3s;
+}
+
+#confirmDescription {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  width: 60vw;
+  font-size: 20px;
+  color: #3F3F3F;
+  font-weight: 300;
+  letter-spacing: 2pt;
+  text-shadow: 1px 1px #6096BA;
+  z-index: 10;
+  animation-delay: 0.9s;
+}

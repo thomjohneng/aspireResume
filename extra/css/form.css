@@ -1,0 +1,103 @@
+#submitHeader {
+  background-color: #EAFCFF;
+  display: block;
+  position: relative;
+  text-align: center;
+  height: 200px;
+  -webkit-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
+#submission {
+  margin: auto;
+  width: 80%;
+  font-family: 'Open-sans', sans-serif;
+  text-align: center;
+  display: block;
+  position: absolute;
+  top: 50%;
+  color: #3F3F3F;
+  z-index: 10;
+  animation-delay: 0.6s;
+}
+
+#submitTitle {
+  font-size: 20px;
+  font-weight: 100;
+}
+
+#submitSubtitle {
+  font-size: 16px;
+  font-weight: 100;
+}
+
+#submitBody {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+#submitForm {
+  background-color: #EAFCFF;
+  display: block;
+  position: relative;
+  text-align: center;
+  height: calc(100vh - 235px);
+  overflow-y: hidden;
+  -webkit-transition: background-color 0.3s linear;
+  -moz-transition: background-color 0.3s linear;
+  -o-transition: background-color 0.3s linear;
+  -ms-transition: background-color 0.3s linear;
+  transition: background-color 0.3s linear;
+}
+
+#formBody {
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 10vh;
+  animation-delay: 1s;
+}
+
+#formInput {
+  border: 2px solid #274C77;
+  border-radius: 2px;
+  background-color: #E7ECEF;
+  color: #3F3F3F;
+}
+
+input[type="file"] {
+  display: none;
+}
+
+.customFileUpload {
+  border: 2px solid #274C77;
+  justify-content: center;
+  display: block;
+  width: 250px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #8B8C89;
+  color: #E7ECEF;
+  border-radius: 2px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+#formSubmit {
+  border: 2px solid #274C77;
+  justify-content: center;
+  display: block;
+  width: 200px;
+  height: 30px;
+  cursor: pointer;
+  background-color: #6096BA;
+  color: #E7ECEF;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
